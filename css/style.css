@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 * {
     margin: 0;
@@ -7,11 +7,10 @@
 }
 
 body {
-    font-family: 'Gentium Plus', serif;
-    background-image:url(/assets/Background.png);
-    color: white
+    font-family: "Gentium Plus", serif;
+    background-image: url("../assets/Background.png");
+    color: white;
 }
-
 
 main {
     display: flex;
@@ -37,8 +36,8 @@ p {
 
 .left-panel {
     margin-right: 60px;
-    border: 1px solid #FFF;
-    background: rgba(85, 48, 233, 0.50);
+    border: 1px solid #fff;
+    background: rgba(85, 48, 233, 0.5);
     backdrop-filter: blur(2px);
     padding: 20px;
     max-height: 40vh;
@@ -63,11 +62,11 @@ p {
     margin-top: 25px;
 }
 .bar-container {
-        width: 232px;
-        background: #ccc
-    }
+    width: 232px;
+    background: #ccc;
+}
 .bar-mental {
     width: 0;
     height: 11px;
-    background: #FF7A7A;
+    background: #ff7a7a;
 }
