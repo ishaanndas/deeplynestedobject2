@@ -62,9 +62,12 @@ p {
     margin-bottom: 25px;
     margin-top: 25px;
 }
-
+.bar-container {
+        width: 232px;
+        background: #ccc
+    }
 .bar-mental {
-    width: 282px;
+    width: 0;
     height: 11px;
     background: #FF7A7A;
 }
